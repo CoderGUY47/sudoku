@@ -52,7 +52,7 @@ html {
     body {
         height: 100%;
         width: 100%;
-        background-image: url("images/bg.png");
+        background-image: url("images/bg.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 100% 100%;
@@ -70,7 +70,7 @@ html {
 
                 #header__menu {
                     width: 33.3%;
-                    font-family: "Poppins";
+                    font-family: "Poppins", serif;
                     text-align-last: left;
 
                     img {
@@ -89,13 +89,13 @@ html {
                     width: 33.3%;
                     font-size: 2rem;
                     text-align: center;
-                    font-family: "Recursive";
+                    font-family: "Poppins", serif;
                 }
 
                 #header__submit {
                     width: 33.3%;
                     text-align: right;
-                    font-family: "Poppins";
+                    font-family: "Poppins", serif;
 
                     span {
                         border: 1px solid black;
@@ -128,7 +128,7 @@ html {
                 &>div {
                     background-color: #f1f2f6;
                     border: 1px solid rgba(164, 176, 190, 1.0);
-                    font-family: 'Poppins';
+                    font-family: "Poppins", serif;
                     font-size: 1.075rem;
                     margin-bottom: 1px;
                     text-align: center;
@@ -181,7 +181,7 @@ html {
                         div {
                             background-color: #f1f2f6;
                             border: 1px solid rgba(164, 176, 190, 1.0);
-                            font-family: 'Poppins';
+                            font-family: "Poppins", serif;
                             font-size: 1.075rem;
                             margin-bottom: 1px;
                             text-align: center;
@@ -252,7 +252,7 @@ html {
             #board {
                 width: 60vh;
                 height: 60vh;
-                font-family: "Ubuntu";
+                font-family: "Poppins", serif;
                 border-top: 2.5px solid black;
                 border-left: 2.5px solid black;
                 display: grid;
@@ -269,7 +269,7 @@ html {
                 width: 100%;
                 height: 6vh;
                 margin-top: 2vh;
-                font-family: "Red Rose";
+                font-family: "Poppins", serif;
 
                 .keypad__item {
                     height: 80%;
@@ -313,7 +313,7 @@ html {
                 font-size: 4rem;
                 margin-top: 1rem;
                 text-align: center;
-                font-family: 'Recursive';
+                font-family: "Poppins", serif;
             }
 
             .selection {
@@ -372,7 +372,7 @@ html {
             }
 
             #start {
-                font-family: 'Raleway';
+                font-family: "Poppins", serif;
                 width: 40%;
                 font-size: 2.25rem;
                 position: absolute;

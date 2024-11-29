@@ -69,7 +69,7 @@ class Solver {
     }
 
 
-    // Singles Finder START
+    //################################ Singles Finder START
 
     // the below function is not being used and is replaced by singlesFinder
     createSinglesObject() {
@@ -170,9 +170,9 @@ class Solver {
         return possible;
     }
 
-    //singles Finder END
+    //################################ Singles Finder END
     
-    //back tracking START
+    //################################ back tracking START
     async backTracking(){        
 
         let bTquestions = this.createBackTrackingObject()
@@ -260,7 +260,7 @@ class Solver {
 
         return counter;
     }
-    // back tracking END
+    //################################ back tracking END
 
     writeToBoard(_obj) {
         let objLen = Object.keys(_obj).length;
